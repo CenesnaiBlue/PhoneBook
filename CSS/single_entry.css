@@ -1,0 +1,13 @@
+.entry_first_name {
+  color: #005500;
+}
+
+.entry_second_name {
+  color: #005500;
+}
+
+.entry_phone_number {
+  display: flex;
+  justify-content: flex-end;
+  color: #005500;
+}

@@ -1,0 +1,42 @@
+.new_first_name,
+.new_second_name,
+.new_phone_number {
+  display: flex;
+  align-self: center;
+  width: 200px;
+  height: 30px;
+  background: #ddffdd;
+  color: #000000;
+  font-size: 20px;
+  padding: 2px;
+  margin: 0 5px 0 5px;
+  font-family: "Cronos Pro Display";
+}
+
+.add_new_contact {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  color: #000000;
+  font-size: 16px;
+  background: #cccccc;
+  border-radius: 5px;
+  border: 2px solid #999999;
+  margin: 0 5px 0 5px;
+  font-family: "Cronos Pro Display";
+}
+
+.add_new_contact:active {
+  background: #22aa22;
+}
+
+.phone_book_header_add_form_label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 0 5px 0 5px;
+  color: #000000;
+}

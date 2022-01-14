@@ -1,0 +1,50 @@
+.phone_book_notes_container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  top: 20vh;
+  right: 10%;
+  width: 250px;
+  height: 35px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 3px;
+  background: linear-gradient(#ffffff, #dddddd, #bbbbbb);
+  animation: movingUp 5s linear;
+}
+
+@keyframes movingUp {
+  0% {
+    top: 20vh;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100%;
+  }
+  90% {
+    opacity: 100%;
+  }
+  100% {
+    top: 5vh;
+    opacity: 0;
+  }
+}
+
+.phone_book_delete_note {
+  background: #ff0000;
+  color: #ffffff;
+  padding: 0 0 0 5px;
+}
+
+.phone_book_changed_note {
+  background: #5555aa;
+  color: #ffffff;
+  padding: 0 0 0 5px;
+}
+
+.phone_book_added_note {
+  background: #22aa22;
+  color: #ffffff;
+  padding: 0 0 0 5px;
+}

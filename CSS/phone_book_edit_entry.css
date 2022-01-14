@@ -1,0 +1,61 @@
+.screen_div {
+  display: flex;
+  position: fixed;
+  top: 0;
+  /*background: rgba(255, 0, 0, 0.2);*/
+  width: 100%;
+  min-height: 100vh;
+}
+
+.edit_entry_container {
+  margin: auto;
+  width: 300px;
+  height: auto;
+  border: 1px solid #000000;
+  border-radius: 15px 15px 10px 10px;
+  background: #ffffff;
+}
+
+.edit_entry_header {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+  background: #5555ff;
+  height: 30px;
+  border-radius: 15px 15px 0 0;
+}
+
+.edit_entry_first_name,
+.edit_entry_second_name,
+.edit_entry_phone_number {
+  display: flex;
+  font-family: "Cronos Pro Display";
+  height: 25px;
+  width: 90%;
+  margin: 10px 5% 10px 5%;
+  padding: 1px;
+  font-size: 22px;
+}
+
+.send_edited_entry {
+  display: flex;
+  font-family: "Cronos Pro Display";
+  justify-content: center;
+  margin: 0 auto 10px auto;
+  width: 125px;
+  height: 30px;
+  font-size: 22px;
+  font-family: "Cronos Pro Display";
+  background: #5555ff;
+  color: #ffffff;
+}
+
+.edit_entry_first_name {
+}
+
+.edit_entry_second_name {
+}
+
+.edit_entry_second_name {
+}

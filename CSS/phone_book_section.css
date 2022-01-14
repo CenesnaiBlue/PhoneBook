@@ -1,0 +1,13 @@
+.phone_book_section {
+  width: 100%;
+  height: auto;
+}
+
+.phone_book_container {
+  width: 98%;
+  background: #dddddd;
+  border-radius: 15px;
+  height: 96%;
+  margin: 1%;
+  border: 1px solid #999999;
+}

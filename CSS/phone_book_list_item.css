@@ -1,0 +1,82 @@
+.phone_book_list_item_container {
+  width: 99%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  margin: 0.5% 0 0.5% 0;
+}
+
+.phone_book_list_item_header {
+  display: flex;
+  align-items: center;
+  width: 99%;
+  height: 30px;
+  background: #cccccc;
+  background: linear-gradient(to right, #779977 65%, #99bb99);
+  padding: 0 0.5% 0 0.5%;
+  font-size: 24px;
+  color: #ffffff;
+  text-shadow: -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000,
+    -0.5px -0.5px 0 #000;
+  font-weight: 900;
+}
+
+.phone_book_list_item_content {
+  margin: 5px 0 0 0;
+  font-size: 22px;
+}
+
+.one_entry {
+  display: grid;
+  height: 34px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  width: 98%;
+  padding: 0 1% 0 1%;
+}
+
+.entry_first_name,
+.entry_second_name,
+.entry_phone_number {
+  margin: 2px 0 2px 0;
+  display: flex;
+  align-items: center;
+}
+
+.phone_book_list_item_no_entry {
+  color: #aaaaaa;
+  font-size: 16px;
+  margin: 0 0 0 5px;
+}
+
+.edit_entry,
+.delete_entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  visibility: hidden;
+  color: #ffffff;
+  margin: 0 25px 0 25px;
+  height: 28px;
+}
+
+.edit_entry {
+  background: #5555aa;
+}
+
+.delete_entry {
+  background: #aa5555;
+}
+
+.one_entry:hover .edit_entry,
+.one_entry:hover .delete_entry {
+  visibility: visible;
+}
+
+.one_entry:hover {
+  background: #ccee00;
+  font-size: 26px;
+  color: #113311;
+  /*text-shadow: -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000,
+    -0.5px -0.5px 0 #000;*/
+}

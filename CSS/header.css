@@ -1,0 +1,9 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  width: 99%;
+  height: 15vh;
+  background: #44aa44;
+  padding: 0 0 0 1%;
+  font-size: 40px;
+}
